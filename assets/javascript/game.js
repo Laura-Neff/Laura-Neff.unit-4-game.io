@@ -60,7 +60,7 @@ function Failure(){
         loss = loss;
     } else if(total === random){
         win += 1;
-        $("#EndGame").html("YEEHAW");
+        $("#EndGame").html("YEE");
         $("#wins").html("Wins: " + win);
         random = Math.floor(Math.random()*(120-19+1))+19;
         $(".RandNum").html(random);
