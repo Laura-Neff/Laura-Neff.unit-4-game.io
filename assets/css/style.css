@@ -1,0 +1,79 @@
+body{
+    background-image:url("../images/regal.png")
+}
+
+
+.heading{
+    background:skyblue;
+    color:white;
+    width:25%;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px;
+    display:inline;
+
+}
+
+.jumbotron{
+    margin:15px;
+    padding:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background:peachpuff; */
+    background:#FA9A85;
+    color:white;
+    font-size:20px;
+    width:75%;
+}
+
+.jumbotron p {
+padding:3px;
+}
+
+.RandNum {
+    margin:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    background-color:#ff6961;
+    width:75%;
+    font-size:75px;
+}
+
+.Progress {
+    width:25%;
+    margin:15px;
+    line-height:150%;
+    background:#B4FFE5;
+    font-size:20px;
+    
+}
+
+img {
+    margin:10px;
+    width:80%;
+    height:80%;
+    padding:15px;
+    background:purple;
+
+}
+
+.Total{
+    width:50%;
+    margin:15px;
+    line-height:300%;
+    background:orangered;
+    color:white;
+    font-size:20px;
+    padding:10px;
+
+}
+
+.Total #TotalScore{
+    font-size:40px;
+}
+
+
+
+
+
+
+

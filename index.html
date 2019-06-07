@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+     <!-- Added link to the jQuery Library -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href=assets/css/style.css>
+</head>
+<body>
+    <!-- row -->
+    <!-- column -->
+    <!-- CrystalsCollector header -->
+    <div class="row">
+            <div class="col-sm">
+                <h1 class="heading">The Alignment Chart Game</h1>
+            </div>
+        </div>
+
+
+     <!-- row -->
+     <!-- column -->
+    <!-- Jumbotron instructions -->
+    <div class="row">
+        <div class="col-sm">
+                <div class="jumbotron">
+                        <h1 class="display-4">Instructions</h1>
+                        <hr class="my-4">
+                        <p>You will be given a random number at the start of the game</p>
+                        <p>There are four versions of toothpaste below with different alignments.</p>
+                        <p>There is a lawful good, a chaotic evil, a lawful evil, and a true neutral.</p>
+                        <p>You win the game by matching your total score to the random number.</p>
+                        <p>You lose the game if your total score goes above the random number.</p>
+                        <p>The value of each toothpaste is hidden from you until you click on it.</p>
+                        <p>Each time when the game starts, the game will change the values/alignments of each toothpaste.</p>
+                      </div>
+
+        </div>
+    </div>
+
+    <!-- row -->
+    <!-- column -->
+    <!-- Random Number Box -->
+<div class="row">
+    <div class="col-sm">
+        <h3 class="RandNum">19</h3>
+    </div>
+
+
+    <!-- column -->
+    <!-- wins/losses -->
+<div class="col-sm">
+        <div class="Progress">
+            <p id="EndGame"></p>
+                <p id="wins">Wins: 0</p>
+                <p id="losses">Losses: 0</p>
+                
+
+</div>
+
+</div>
+</div>
+
+
+    <!-- row -->
+    <!-- column -->
+    <!-- crystal1 -->
+     <!-- column -->
+    <!-- crystal2 -->
+    <!-- column -->
+    <!-- crystal3 -->
+    <!-- column -->
+    <!-- crystal4 -->
+    <!-- row -->
+    <!-- column -->
+
+<div class="row">
+    <div class="col-sm">
+        <img id="bundle" src="assets/images/bundle.jpg">
+
+    </div>
+    <div class="col-sm">
+        <img id="clip" src="assets/images/clip.jpg">
+    </div>
+    <div class="col-sm">
+        <img id="cut" src="assets/images/cut.jpg">
+    </div>
+    <div class="col-sm">
+        <img id="narrow" src="assets/images/narrow.jpg">
+    </div>
+</div>
+
+    <!-- Total score is -->
+    <!-- real total score -->
+
+<div class="row">
+    <div class="col-sm">
+
+        <div class="Total">
+            <h3>Your total score is:</h3>
+             <h3 id="TotalScore">0</h3>
+
+         </div>
+    
+    </div>
+
+
+
+</div>
+
+
+
+
+
+    
+</body>
+</html>
