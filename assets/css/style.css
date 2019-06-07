@@ -21,8 +21,9 @@ body{
     /* background:peachpuff; */
     background:#FA9A85;
     color:white;
-    font-size:20px;
+    font-size:18px;
     width:75%;
+    line-height:150%;
 }
 
 .jumbotron p {
