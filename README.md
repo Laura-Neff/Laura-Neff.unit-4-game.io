@@ -8,3 +8,6 @@ If the user goes above the random number's value (pays more than the required ta
 If the user does match his/her score with the random number, a win is recorded.
 With each loss or win, a new round starts and the game is restarted.
 This project showcases how to use JQuery callback methods, as well as how to use Bootstrap to make a website mobile responsive.
+
+
+ https://laura-neff.github.io/theMemeTrade/.
